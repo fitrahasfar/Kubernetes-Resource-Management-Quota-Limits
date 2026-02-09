@@ -1,6 +1,4 @@
----
 
-```markdown
 # Kubernetes Resource Management: Quota & Limits
 
 This repository contains configuration files to manage resource consumption (CPU, Memory, Storage) and object counts within a Kubernetes Namespace. These policies help prevent "noisy neighbor" issues and ensure fair resource distribution.
