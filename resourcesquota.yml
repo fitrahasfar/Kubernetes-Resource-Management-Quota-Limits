@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: rs-go-api
+spec:
+  hard:
+    # Object
+    pods: 5
+    services: 5
+    configmaps: 3
+    secrets: 2
+    persistentvolumeclaims: 3
+
+    # CPU and Memory (Total Namespace)
+    requests.cpu: "500m"
+    requests.memory: "512Mi"
+    limits.cpu: "1"
+    limits.memory: "1Gi"
+
+    # total VPC
+    requests.storage: "10Gi"
