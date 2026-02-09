@@ -102,10 +102,3 @@ kubectl get limitrange limit-range --output=yaml
 * **Auto-fill Test:** Deploy a Pod without any resource definitions. It will automatically be assigned 100m CPU / 256Mi RAM (from `default` settings).
 * **Min-Validation Failure:** Deploy a Pod with 64Mi Memory request. It will be **rejected** because it's below the 128Mi minimum.
 * **Quota Failure:** Attempt to deploy more than 5 Pods. The 6th Pod will be **rejected** by the ResourceQuota.
-
-```
-
-***
-3. **Professional Tone:** Sangat cocok jika Anda ingin memamerkan kode ini di portofolio GitHub atau dibaca oleh rekan kerja internasional.
-
-```
