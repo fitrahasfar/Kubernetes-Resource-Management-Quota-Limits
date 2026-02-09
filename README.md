@@ -1,3 +1,5 @@
+---
+
 ```markdown
 # Kubernetes Resource Management: Quota & Limits
 
@@ -106,10 +108,6 @@ kubectl get limitrange limit-range --output=yaml
 ```
 
 ***
-
-### Kelebihan versi Inggris ini:
-1. **Terminologi Standar:** Menggunakan istilah industri seperti *Hard Cap*, *Guaranteed*, *Aggregate*, dan *Gatekeeper*.
-2. **Clearer Instructions:** Instruksi `kubectl` diletakkan dalam blok kode agar mudah di-copy.
 3. **Professional Tone:** Sangat cocok jika Anda ingin memamerkan kode ini di portofolio GitHub atau dibaca oleh rekan kerja internasional.
 
 ```
